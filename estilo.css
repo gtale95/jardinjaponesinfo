@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto+Condensed:wght@300;400;700&family=Roboto+Mono:ital,wght@0,300;1,400&display=swap');
+
+* {
+    font-family: 'Roboto Condensed';
+    margin: 0;
+
+}
+
+body {
+    background-image: url(fotos/florescerezos.jpg);
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+}
+
+header h1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    text-shadow: 5cm;
+    color: rgba(20, 20, 20, 0.877);
+    padding: 50px;
+    margin-top: 50px;
+    height: 100px;
+}
+
+nav {
+    margin: 0px;
+    border: 5px rgb(250, 225, 225) solid;
+    font-size: larger;
+    float: inline-start;
+    background: rgba(253, 253, 252, 0.801);
+
+}
+
+ul li {
+    list-style: none;
+    line-height: 30px;
+}
+
+.menu {
+    padding: 10px;
+    text-align: center;
+    display: inline;
+
+}
+
+.menu :hover {
+    color: rgb(243, 98, 61);
+}
+
+a {
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+}
+
+main {
+    padding: 10px;
+    margin: 10px 30px;
+    font-size: large;
+}
+
+
+
+h2 {
+    line-height: 40px;
+}
+
+
+
+iframe {
+    padding: 10px;
+    margin: 10px 30px;
+}
+
+footer {
+
+    font-family: 'Roboto Condensed';
+    font-size: medium;
+    margin: 0;
+    padding: 5px;
+    background: rgba(253, 253, 252, 0.801);
+    line-height: 20px;
+}
+
+footer p {
+    text-align: right;
+}
+
+section h3 p {
+   display: inline-block;
+}
+
+.contenedor {
+    display: flex;   
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
+.padre {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.box {
+    border: 50px;
+    align-self: center;
+    margin: 15px;
+    flex-basis: 30px;
+}
+
+.contenedor2{
+    display: flex;
+    flex-direction: row ;
+    justify-content: baseline;
+    gap: 5px;
+    
+}
+
+.item {
+    margin: 10px;
+    flex-grow: 10px;
+    order: 5px;
+}
+
+.caja {
+    background-color: rgba(250, 218, 218, 0.87);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.formulario {
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    flex-grow: 5px;
+}
+
+form{
+display: flex;
+flex-direction: column;
+gap: 5px;
+}
+
+input{
+    padding: 5px;
+}
+
+button{
+    padding: 5px;
+    background-color: rgb(243, 98, 61);
+    color: black;
+}
+
+
+img {
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+
+section {
+    background: rgba(250, 218, 218, 0.87);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+
+}
+
+
+p {
+    line-height: 30px;
+}
+
+
+
+.fotoale {
+    padding: 10px;
+    background: rgba(3, 0, 0, 0.815);
+    border-radius: 30px;
+}
+
+
+.mensaje {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    padding: 50px;
+    margin-top: 50px;
+    height: 100px;
+
+}
